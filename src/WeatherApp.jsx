@@ -17,7 +17,7 @@ export default function WeatherApp(){
 
     return (
         <div className="weatherapp">
-            <h1>Weathet App</h1>
+            <h1>Weather App</h1>
             <SearchBox sendData={updateinfo} />
             <InfoBox info={weatherInfo}/>
         </div>
